@@ -78,9 +78,9 @@ async function init() {
         const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
           `<h1>${countryregion}</h1>
            <h3>${provincestate}</h3>
-           <p>Casos confirmados: ${confirmed}<br/>
-           Muertes: ${deaths || 0}<br/>
-           Recuperados: ${recovered || 0}</p>`
+           <p>Casos confirmados: ${new Intl.NumberFormat().format(confirmed)}<br/>
+           Muertes: ${new Intl.NumberFormat().format(deaths) || 0}<br/>
+           Recuperados: ${new Intl.NumberFormat().format(recovered) || 0}</p>`
         );
 
         // create DOM element for the marker
