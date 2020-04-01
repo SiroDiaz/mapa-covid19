@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server ./dist --port 80 -g true --log-ip",
     "dev": "parcel index.html",
     "build": "parcel build index.html",
     "heroku-postbuild": "npm run build"
