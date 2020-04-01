@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Covid-19 status in the world</title>
   <link rel="stylesheet" href="/assets/styles/normalize.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
   <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
   <style>
   
@@ -27,6 +28,15 @@
   
   .mapboxgl-popup {
     max-width: 200px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .mapboxgl-popup-close-button {
+    font-size: 1.3rem;
+  }
+
+  .mapboxgl-popup-content {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   }
 
   </style>
