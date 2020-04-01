@@ -56,7 +56,6 @@ function getUnifiedCountryRegions(countries) {
         uniqueCountries.set(countryName, uniqCountry);
       }
     } else {
-      console.log(country.countryregion, country);
       uniqueCountries.set(countryName, country);
     }
   });
