@@ -11,7 +11,7 @@ async function getData() {
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2lyb2RpYXoiLCJhIjoiY2s4Z2Y1ZWRrMDByNTNtbXp3eXp2YmhreCJ9.h7aMotOX5GYgB6IqjQ33UA';
 let map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/dark-v10',
+  style: 'mapbox://styles/mapbox/streets-v11',
   center: [0, 0],
   zoom: 1,
   maxZoom: 3,
