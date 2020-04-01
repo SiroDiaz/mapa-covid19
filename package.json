@@ -9,7 +9,7 @@
     "heroku-postbuild": "npm run build"
   },
   "browserslist": [
-    "last 1 Chrome versions"
+    "last 10 Chrome versions"
   ],
   "keywords": [],
   "author": "",
