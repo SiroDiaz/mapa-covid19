@@ -1,0 +1,25 @@
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server ./dist --port 80 -g true --log-ip",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "heroku-postbuild": "npm run build"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "mapbox-gl": "^1.9.0"
+  }
+}
